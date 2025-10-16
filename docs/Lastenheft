@@ -1,0 +1,3 @@
+Der Vetilator hat die Stufen Aus, Stufe 1, Stufe 2, Stufe 3 und Oszillieren als Betriebsmodi.
+Es muss von Aus auf einen beliebigen Modi geschaltet werden können optional kann Oszillieren für die Stufen[1-3] dazugeschaltet werden.
+Beim Betätigen von Aus wird das Gerät ausgeschaltet und der Oszillieren Schalter rückgesetzt
