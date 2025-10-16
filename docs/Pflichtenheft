@@ -1,0 +1,7 @@
+Req. 1: Der Ventilator muss beim Betätigen des Stufe 1 Schalters einschalten und der Gebläsemotor muss mit 25% der maximalen Leistung versorgt werden.
+Req. 2: Der Ventilator muss beim Betätigen des Stufe 2 Schalters einschalten und der Gebläsemotor muss mit 50% der maximalen Leistung versorgt werden.
+Req. 3: Der Ventilator muss beim Betätigen des Stufe 3 Schalters einschalten und der Gebläsemotor muss mit 100% der maximalen Leistung versorgt werden.
+Req. 4: Der Ventilator muss beim Betätigen des Aus Schalters aus allen Schalter Stufen [1-3], auch beim Oszillieren, ausschalten
+Req. 5: Beim Zuschalten des Oszillieren Schalters muss der Ventilator in den Gebläse Stufen [1-3] sein, ansonsten bleibt das Oszillieren aus.
+Req. 6: Beim Betätigen des Oszillieren Schalters muss der Ventilator sich um 90° hin und her drehen. Soll Anfangs nach rechts drehen.
+Req. 7: Transitionen zwuischen den Einzelenen Schalterstufen müssen nach folgendem Zustandsgraph möglich sein.
