@@ -12,7 +12,7 @@
 | AUS Schalter  | F-Req. 4, F-Req. 7 , F-Req. 8 |
 | OSZILLIEREN Schalter  | F-Req. 5, F-Req. 6, F-Req. 7 , F-Req. 8|
 | Sturzerkennung Taster  | Content Cell, F-Req. 8, F-Req. 12, F-Req. 13, F-Req. 14  |
-| µC  | F-Req. 8  |
+| µC Abstraktion | F-Req. 8  |
 | Sicherheitsabschaltung  | F-Req. 8, F-Req. 14  |
 | Display  | F-Req. 11  |
 | Gebläsemotor  | F-Req. 8, F-Req. 9  |
@@ -21,17 +21,17 @@
 ## Verantworltichkeit der Komponenten
 | Component  | Rolle | Verantwortlichkeiten |
 | ------------- | ------------- | -----------|
-| STUFE1 Schalter | | |
-| STUFE2 Schalter  | ||
-| STUFE3 Schalter  |  | |
-| AUS Schalter  | | |
-| OSZILLIEREN Schalter  | | |
-| Sturzerkennung Taster  |   | |
-| µC  |  | |
-| Sicherheitsabschaltung  |   | |
-| Display  |   | |
-| Gebläsemotor  |  | |
-| Oszillieren (Motor)  |  | |
+| STUFE1 Schalter | User Interface| User Interaktion |
+| STUFE2 Schalter  |User Interface | User Interaktion|
+| STUFE3 Schalter  | User Interface |  User Interaktion|
+| AUS Schalter  | User Interface| User Interaktion |
+| OSZILLIEREN Schalter  | User Interface | User Interaktion|
+| Sturzerkennung Taster  |  Input | |
+| µC Abstraktion  | Hardware Interface | Simulation HW|
+| Sicherheitsabschaltung  | Aktor  | |
+| Display  | User Interface  | User Interaktion|
+| Gebläsemotor  | Aktor | Lüfterdrehzahl |
+| Oszillieren (Motor)  | Aktor | Oszillieren |
 
 
 
