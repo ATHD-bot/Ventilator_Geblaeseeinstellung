@@ -17,7 +17,7 @@
 | Gebläsemotor  | F-Req. 8, F-Req. 9  |
 | Oszillieren (Motor)  | F-Req. 8, F-Req. 10  |
 
-## Verantworltichkeit der Komponenten
+## Verantwortlichkeit der Komponenten
 | Component  | Rolle | Verantwortlichkeiten |
 | ------------- | ------------- | -----------|
 | STUFE1 Schalter | User Interface| User Interaktion |
