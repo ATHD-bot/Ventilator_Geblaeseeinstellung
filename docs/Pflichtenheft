@@ -8,7 +8,7 @@ Funk. 3: Ventilator Oszillations-Funktion [AN/AUS]
 Funk. 4: Sturzerkennung
 Funk. 5: Sicherheitsabschaltung
 
-Funktionale Requirements:
+Funktionale Requirements (F-Req. x):
 F-Req. 1: Der Ventilator muss beim Betätigen des STUFE1 Schalters einschalten und der Gebläsemotor muss mit 25% der maximalen Leistung versorgt werden.
 F-Req. 2: Der Ventilator muss beim Betätigen des STUFE2 Schalters einschalten und der Gebläsemotor muss mit 50% der maximalen Leistung versorgt werden.
 F-Req. 3: Der Ventilator muss beim Betätigen des STUFE3 Schalters einschalten und der Gebläsemotor muss mit 100% der maximalen Leistung versorgt werden.
@@ -25,7 +25,7 @@ F-Req. 13: Taster für Sturzerkennung MUSS bei Sturz ein LOW Signal ausgeben. Be
 F-Req. 14: Falls die Sturzerkennung auslöst MUSS die Sicherheitsabschaltung auslösen und der Gebläsemotor MUSS mit 0% der Leistung (AUS) 
          versorgt werden und OSZILLIEREN MUSS AUS sein.
 
-Nicht Funktionale Requirements:
+Nicht Funktionale Requirements (NF-Req. x):
 NF-Req. 1: Programmierung muss nach ISO C++ 14 Standard erfolgen.
 NF-Req. 2: Muss mittels Visual Studio 2022 Community Edition entwickelt werden.
 NF-Req. 3: Code und Dokumentation muss mittels GitHub Repository zur Verfügung gestellt werden.
