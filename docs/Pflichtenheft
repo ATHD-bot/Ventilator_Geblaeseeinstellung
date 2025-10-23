@@ -21,7 +21,7 @@ Req. 9: Maximale Leistung beträgt 50 Watt.
 Req. 10: Beim Oszillieren soll sich der Ventilator mit 6°/s (+-50%) drehen
 Req. 11: Die aktuelle Gebläse-STUFE und OSZILLIEREN MUSS auf einem Display angezeigt werden
 Req. 12: Sturzerkennung des Ventilators MUSS mittels Taster realisiert wurde.
-Req. 13: Taster für Sturzerkennung MUSS bei Sturz ein LOW Signal ausgeben. Bei OK/Normal Betrieb gibt der Taster HIGH aus.
+Req. 13: Taster für Sturzerkennung MUSS bei Sturz ein LOW Signal ausgeben. Bei OK/Normal Betrieb MUSS der Taster HIGH ausgeben.
 Req. 14: Falls die Sturzerkennung auslöst MUSS die Sicherheitsabschaltung auslösen und der Gebläsemotor MUSS mit 0% der Leistung (AUS) 
          versorgt werden und OSZILLIEREN MUSS AUS sein.
 
