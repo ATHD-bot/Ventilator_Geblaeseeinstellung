@@ -9,27 +9,27 @@ Funk. 4: Sturzerkennung
 Funk. 5: Sicherheitsabschaltung
 
 Funktionale Requirements:
-Req. 1: Der Ventilator muss beim Betätigen des STUFE1 Schalters einschalten und der Gebläsemotor muss mit 25% der maximalen Leistung versorgt werden.
-Req. 2: Der Ventilator muss beim Betätigen des STUFE2 Schalters einschalten und der Gebläsemotor muss mit 50% der maximalen Leistung versorgt werden.
-Req. 3: Der Ventilator muss beim Betätigen des STUFE3 Schalters einschalten und der Gebläsemotor muss mit 100% der maximalen Leistung versorgt werden.
-Req. 4: Der Ventilator muss beim Betätigen des AUS Schalters aus allen Schalter STUFEN [1-3], auch beim Oszillieren, ausschalten
-Req. 5: Beim Zuschalten des OSZILLIEREN Schalters muss der Ventilator in den Gebläse STUFEN [1-3] sein, ansonsten bleibt das OSZILLIEREN aus.
-Req. 6: Beim Betätigen des OSZILLIEREN Schalters muss der Ventilator sich um 90° hin und her drehen. Soll Anfangs nach rechts drehen.
-Req. 7: Transitionen zwischen den Einzelnen Schalterstufen müssen möglich sein.
-Req. 8: Alle Schaltvorgänge sollen maximal 0,2 Sekunden benötigen.
-Req. 9: Maximale Leistung beträgt 50 Watt.
-Req. 10: Beim Oszillieren soll sich der Ventilator mit 6°/s (+-50%) drehen
-Req. 11: Die aktuelle Gebläse-STUFE und OSZILLIEREN MUSS auf einem Display angezeigt werden
-Req. 12: Sturzerkennung des Ventilators MUSS mittels Taster realisiert wurde.
-Req. 13: Taster für Sturzerkennung MUSS bei Sturz ein LOW Signal ausgeben. Bei OK/Normal Betrieb MUSS der Taster HIGH ausgeben.
-Req. 14: Falls die Sturzerkennung auslöst MUSS die Sicherheitsabschaltung auslösen und der Gebläsemotor MUSS mit 0% der Leistung (AUS) 
+F-Req. 1: Der Ventilator muss beim Betätigen des STUFE1 Schalters einschalten und der Gebläsemotor muss mit 25% der maximalen Leistung versorgt werden.
+F-Req. 2: Der Ventilator muss beim Betätigen des STUFE2 Schalters einschalten und der Gebläsemotor muss mit 50% der maximalen Leistung versorgt werden.
+F-Req. 3: Der Ventilator muss beim Betätigen des STUFE3 Schalters einschalten und der Gebläsemotor muss mit 100% der maximalen Leistung versorgt werden.
+F-Req. 4: Der Ventilator muss beim Betätigen des AUS Schalters aus allen Schalter STUFEN [1-3], auch beim Oszillieren, ausschalten
+F-Req. 5: Beim Zuschalten des OSZILLIEREN Schalters muss der Ventilator in den Gebläse STUFEN [1-3] sein, ansonsten bleibt das OSZILLIEREN aus.
+F-Req. 6: Beim Betätigen des OSZILLIEREN Schalters muss der Ventilator sich um 90° hin und her drehen. Soll Anfangs nach rechts drehen.
+F-Req. 7: Transitionen zwischen den Einzelnen Schalterstufen müssen möglich sein.
+F-Req. 8: Alle Schaltvorgänge sollen maximal 0,2 Sekunden benötigen.
+F-Req. 9: Maximale Leistung beträgt 50 Watt.
+F-Req. 10: Beim Oszillieren soll sich der Ventilator mit 6°/s (+-50%) drehen
+F-Req. 11: Die aktuelle Gebläse-STUFE und OSZILLIEREN MUSS auf einem Display angezeigt werden
+F-Req. 12: Sturzerkennung des Ventilators MUSS mittels Taster realisiert wurde.
+F-Req. 13: Taster für Sturzerkennung MUSS bei Sturz ein LOW Signal ausgeben. Bei OK/Normal Betrieb MUSS der Taster HIGH ausgeben.
+F-Req. 14: Falls die Sturzerkennung auslöst MUSS die Sicherheitsabschaltung auslösen und der Gebläsemotor MUSS mit 0% der Leistung (AUS) 
          versorgt werden und OSZILLIEREN MUSS AUS sein.
 
 Nicht Funktionale Requirements:
-Req. 1: Programmierung muss nach ISO C++ 14 Standard erfolgen.
-Req. 2: Muss mittels Visual Studio 2022 Community Edition entwickelt werden.
-Req. 3: Code und Dokumentation muss mittels GitHub Repository zur Verfügung gestellt werden.
-Req. 4: Das Produkt muss nach dem V Modell entwickelt werden.
-Req. 5: Das Produkt muss bis Ende des Winter Semesters 2025 fertig sein.
+NF-Req. 1: Programmierung muss nach ISO C++ 14 Standard erfolgen.
+NF-Req. 2: Muss mittels Visual Studio 2022 Community Edition entwickelt werden.
+NF-Req. 3: Code und Dokumentation muss mittels GitHub Repository zur Verfügung gestellt werden.
+NF-Req. 4: Das Produkt muss nach dem V Modell entwickelt werden.
+NF-Req. 5: Das Produkt muss bis Ende des Winter Semesters 2025 fertig sein.
 
 
