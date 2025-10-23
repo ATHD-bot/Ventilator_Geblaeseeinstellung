@@ -20,3 +20,11 @@ Req. 2: Muss mittels Visual Studio 2022 Community Edition entwickelt werden.
 Req. 3: Code und Dokumentation muss mittels GitHub Repository zur Verfügung gestellt werden.
 Req. 4: Das Produkt muss nach dem V Modell entwickelt werden.
 Req. 5: Das Produkt muss bis Ende des Winter Semesters 2025 fertig sein.
+
+
+5 Teilfunktionalitäten:
+Funk. 1: Stromversorgung
+Funk. 2: Gebläsemotor Leistungsansteuerung
+Funk. 3: Ventilator Oszillations-Funktion
+Funk. 4: Sturzerkennung
+Funk. 5: Sicherheitsabschaltung
