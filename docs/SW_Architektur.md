@@ -1,7 +1,6 @@
 ## Komponentendiagramm
 
-<img width="1021" height="635" alt="SE_ARC_1" src="https://github.com/user-attachments/assets/7ecaefed-9219-4191-a3e7-01cf64c9748c" />
-
+<img width="1032" height="612" alt="SE_ARC_3" src="https://github.com/user-attachments/assets/5bb7f99c-d581-43ee-923c-9a3eaf32c3f9" />
 
 
 | Component  | Requirement |
@@ -26,9 +25,9 @@
 | STUFE3 Schalter  | User Interface |  User Interaktion|
 | AUS Schalter  | User Interface| User Interaktion |
 | OSZILLIEREN Schalter  | User Interface | User Interaktion|
-| Sturzerkennung Taster  |  Input | |
+| Sturzerkennung Taster  |  Input | Sicherheitsabschaltung |
 | µC Abstraktion  | Hardware Interface | Simulation HW|
-| Sicherheitsabschaltung  | Aktor  | |
+| Sicherheitsabschaltung  | Aktor  | Sicherheitsabschaltung |
 | Display  | User Interface  | User Interaktion|
 | Gebläsemotor  | Aktor | Lüfterdrehzahl |
 | Oszillieren (Motor)  | Aktor | Oszillieren |
