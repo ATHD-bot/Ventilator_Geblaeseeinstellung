@@ -1,3 +1,4 @@
+
 |    Eingabe             |Schnittstelle|       |   Verarbeitung         |Schnittstelle|   |    Ausgabe         |Schnittstelle|  |
 | -------------          |------|              |   -------------        |------        |  | -------------      |------|         |
 | STUFE1 Schalter        |      |              | µC                     |              |  |    Display         |      |         |
