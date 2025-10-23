@@ -1,6 +1,13 @@
 MUSS - Bedingung muss eingehalten werden
 SOLL - Bedingung soll eingehalten werden, Abweichungen sind möglich.
 
+5 Teilfunktionalitäten:
+Funk. 1: Displayanzeige für STUFEN und OSZILLIEREN
+Funk. 2: Gebläsemotor Leistungsansteuerung
+Funk. 3: Ventilator Oszillations-Funktion
+Funk. 4: Sturzerkennung
+Funk. 5: Sicherheitsabschaltung
+
 Funktionale Requirements:
 Req. 1: Der Ventilator muss beim Betätigen des STUFE1 Schalters einschalten und der Gebläsemotor muss mit 25% der maximalen Leistung versorgt werden.
 Req. 2: Der Ventilator muss beim Betätigen des STUFE2 Schalters einschalten und der Gebläsemotor muss mit 50% der maximalen Leistung versorgt werden.
@@ -12,7 +19,10 @@ Req. 7: Transitionen zwischen den Einzelnen Schalterstufen müssen möglich sein
 Req. 8: Alle Schaltvorgänge sollen maximal 0,2 Sekunden benötigen.
 Req. 9: Maximale Leistung beträgt 50 Watt.
 Req. 10: Beim Oszillieren soll sich der Ventilator mit 6°/s (+-50%) drehen
-
+Req. 11: Die aktuelle Gebläse-STUFE und OSZILLIEREN MUSS auf einem Display angezeigt werden
+Req. 12: Sturzerkennung des Ventilators MUSS mittels Taster realisiert wurde.
+Req. 13: Falls die Sturzerkennung auslöst MUSS die Sicherheitsabschaltung auslösen und der Gebläsemotor MUSS mit 0% der Leistung (AUS) 
+         versorgt werden und OSZILLIEREN MUSS AUS sein.
 
 Nicht Funktionale Requirements:
 Req. 1: Programmierung muss nach ISO C++ 14 Standard erfolgen.
@@ -22,9 +32,3 @@ Req. 4: Das Produkt muss nach dem V Modell entwickelt werden.
 Req. 5: Das Produkt muss bis Ende des Winter Semesters 2025 fertig sein.
 
 
-5 Teilfunktionalitäten:
-Funk. 1: Displayanzeige für STUFEN und OSZILLIEREN
-Funk. 2: Gebläsemotor Leistungsansteuerung
-Funk. 3: Ventilator Oszillations-Funktion
-Funk. 4: Sturzerkennung
-Funk. 5: Sicherheitsabschaltung
