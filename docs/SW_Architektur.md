@@ -1,3 +1,4 @@
+## Komponentendiagramm
 
 <img width="1021" height="635" alt="SE_ARC_1" src="https://github.com/user-attachments/assets/7ecaefed-9219-4191-a3e7-01cf64c9748c" />
 
@@ -16,6 +17,22 @@
 | Display  | F-Req. 11  |
 | Gebläsemotor  | F-Req. 8, F-Req. 9  |
 | Oszillieren (Motor)  | F-Req. 8, F-Req. 10  |
+
+## Verantworltichkeit der Komponenten
+| Component  | Rolle | Verantwortlichkeiten |
+| ------------- | ------------- | -----------|
+| STUFE1 Schalter | | |
+| STUFE2 Schalter  | ||
+| STUFE3 Schalter  |  | |
+| AUS Schalter  | | |
+| OSZILLIEREN Schalter  | | |
+| Sturzerkennung Taster  |   | |
+| µC  |  | |
+| Sicherheitsabschaltung  |   | |
+| Display  |   | |
+| Gebläsemotor  |  | |
+| Oszillieren (Motor)  |  | |
+
 
 
 
