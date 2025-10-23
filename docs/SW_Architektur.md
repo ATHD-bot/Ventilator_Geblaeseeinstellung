@@ -3,10 +3,20 @@
 
 
 
-| First Header  | Second Header |
+| Component  | Requirement |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| STUFE1 Schalter | Content Cell  |
+| STUFE2 Schalter  | Content Cell  |
+| STUFE3 Schalter  | Content Cell  |
+| AUS Schalter  | Content Cell  |
+| OSZILLIEREN Schalter  | Content Cell  |
+| Sturzerkennung Taster  | Content Cell  |
+| µC  | Content Cell  |
+| Sicherheitsabschaltung  | Content Cell  |
+| Display  | Content Cell  |
+| Gebläsemotor  | Content Cell  |
+| Oszillieren (Motor)  | Content Cell  |
+
 
 
 |    Eingabe             |Schnittstelle|       |   Verarbeitung         |Schnittstelle |  |    Ausgabe         |Schnittstelle|  |
