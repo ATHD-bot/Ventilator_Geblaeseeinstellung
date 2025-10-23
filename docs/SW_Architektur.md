@@ -32,14 +32,3 @@
 | Gebläsemotor  | Aktor | Lüfterdrehzahl |
 | Oszillieren (Motor)  | Aktor | Oszillieren |
 
-
-
-
-|    Eingabe             |Schnittstelle|       |   Verarbeitung         |Schnittstelle |  |    Ausgabe         |Schnittstelle|  |
-| -------------          |------|              |   -------------        |------        |  | -------------      |------|         |
-| STUFE1 Schalter        |      |              | µC                     |              |  |    Display         |      |         |
-| STUFE2 Schalter        |      |              | Sicherheitsabschaltung |              |  |  Gebläsemotor      |      |         |
-| STUFE3 Schalter        |      |              |                        |              |  | Oszillieren (Motor)|      |         |
-| AUS Schalter           |      |              |                        |              |  |                    |      |         |
-| OSZILLIEREN Schalter   |      |              |                        |              |  |                    |      |         |
-| Sturzerkennung Taster  |      |              |                        |              |  |                    |      |         |
