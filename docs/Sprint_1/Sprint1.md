@@ -32,6 +32,7 @@ Scope: Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1
 # Kommunikationsdiagramm
 
 User -> µC: readS1(), readS2(), readS3(), readAUS()
+
 µC   -> Gebläsemotor: setMotor()
 
 
