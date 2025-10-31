@@ -13,5 +13,6 @@ Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1-3], ST
 | Gebläsemotor  | F-Req. 8, F-Req. 9  |Actor  | asynchron: setMotor() | TBD | 
 
 
+# Klassendiagramm
 
 
