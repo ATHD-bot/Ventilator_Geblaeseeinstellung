@@ -16,3 +16,4 @@ Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1-3], ST
 # Klassendiagramm
 
 
+<img width="958" height="580" alt="Screenshot 2025-10-31 083120" src="https://github.com/user-attachments/assets/a8ce3e0a-94a3-4a0a-bc0e-aec25156c457" />
