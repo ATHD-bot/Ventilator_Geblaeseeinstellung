@@ -17,3 +17,8 @@ Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1-3], ST
 
 
 <img width="958" height="580" alt="Screenshot 2025-10-31 083120" src="https://github.com/user-attachments/assets/a8ce3e0a-94a3-4a0a-bc0e-aec25156c457" />
+
+
+# Zustandsdiagramm
+
+<img width="503" height="467" alt="Screenshot 2025-10-31 091226" src="https://github.com/user-attachments/assets/7268d729-78ba-4104-9f46-e10188f0ba29" />
