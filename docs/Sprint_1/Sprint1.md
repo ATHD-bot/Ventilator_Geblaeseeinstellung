@@ -1,6 +1,6 @@
 # Sprint 1:
 
-Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1-3], STUFE AUS, Ansteuerung Gebläsemotor)
+Scope: Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1-3], STUFE AUS, Ansteuerung Gebläsemotor)
 
 # Traceability Matrix Sprint 1:
 
@@ -22,3 +22,13 @@ Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1-3], ST
 # Zustandsdiagramm
 
 <img width="503" height="467" alt="Screenshot 2025-10-31 091226" src="https://github.com/user-attachments/assets/7268d729-78ba-4104-9f46-e10188f0ba29" />
+
+
+# Sequenzdiagramm
+
+<img width="897" height="471" alt="Screenshot 2025-10-31 185616" src="https://github.com/user-attachments/assets/52bfef0b-b0fb-434d-bcb2-cbbc83c38818" />
+
+
+
+
+
