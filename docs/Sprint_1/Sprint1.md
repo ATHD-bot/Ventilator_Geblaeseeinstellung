@@ -29,6 +29,9 @@ Scope: Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1
 <img width="897" height="471" alt="Screenshot 2025-10-31 185616" src="https://github.com/user-attachments/assets/52bfef0b-b0fb-434d-bcb2-cbbc83c38818" />
 
 
+# Kommunikationsdiagramm
 
+User -> µC: readS1(), readS2(), readS3(), readAUS()
+µC   -> Gebläsemotor: setMotor()
 
 
