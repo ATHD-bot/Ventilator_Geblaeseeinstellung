@@ -22,77 +22,77 @@
 
 ## Schnittstellendokumentation
 
-### Methode: readS1()
+### Methode: asynchron: readS1()
 Beschreibung: Liefert aktuellen Zustand des Schalters STUFE1
 
 Parameter: keine
 
 Rückgabewert: bool
 
-### Methode: readS2()
+### Methode: asynchron: readS2()
 Beschreibung: Liefert aktuellen Zustand des Schalters STUFE2
 
 Parameter: keine
 
 Rückgabewert: bool
 
-### Methode: readS3()
+### Methode: asynchron: readS3()
 Beschreibung: Liefert aktuellen Zustand des Schalters STUFE3
 
 Parameter: keine
 
 Rückgabewert: bool
 
-### Methode: readAUS()
+### Methode: asynchron: readAUS()
 Beschreibung: Liefert aktuellen Zustand des Schalters AUS
 
 Parameter: keine
 
 Rückgabewert: bool
 
-### Methode: readOsz()
+### Methode: asynchron: readOsz()
 Beschreibung: Liefert aktuellen Zustand des Schalters OSZILLIEREN
 
 Parameter: keine
 
 Rückgabewert: bool
 
-### Methode: readSTZ()
+### Methode: asynchron: readSTZ()
 Beschreibung: Liefert aktuellen Zustand des Sturzerkennung Taster
 
 Parameter: keine
 
 Rückgabewert: bool
 
-### Methode: µC_main()
+### Methode: asynchron: µC_main()
 Beschreibung: Main Funktion
 
 Parameter: keine
 
 Rückgabewert: int
 
-### Methode: SAFETY_main()
+### Methode: asynchron: SAFETY_main()
 Beschreibung: Interrupt Funktion für Sicherheitsabschaltung
 
 Parameter: keine
 
 Rückgabewert: bool
 
-### Methode: setDisplay()
+### Methode: asynchron: setDisplay()
 Beschreibung: Anzeigen der aus F-Req 11 gennanten Daten
 
 Parameter: Gebläsestufe[0-3], Oszillieren[0-1] -> (int, int)
 
 Rückgabewert: void
 
-### Methode: setMotor()
+### Methode: asynchron: setMotor()
 Beschreibung: Stellt den Gebläsemotor ein
 
 Parameter: int STUFE
 
 Rückgabewert: void
 
-### Methode: readOSZ()
+### Methode: asynchron: readOSZ()
 Beschreibung: Stellt Oszillieren EIN/AUS
 
 Parameter: bool
