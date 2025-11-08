@@ -18,13 +18,12 @@ Scope: Implementierung der ersten Standard Funktionen eines Ventilators (STUFE[1
 
 # Sequenzdiagramm
 
-<img width="897" height="471" alt="Screenshot 2025-10-31 185616" src="https://github.com/user-attachments/assets/52bfef0b-b0fb-434d-bcb2-cbbc83c38818" />
+<img width="623" height="401" alt="Sequenzdiagramm_SE drawio" src="https://github.com/user-attachments/assets/96a848e5-7ffe-4493-98c1-7b54b37856b4" />
 
 
 # Kommunikationsdiagramm
 
-User -> µC: readS1(), readS2(), readS3(), readAUS()
+<img width="641" height="114" alt="Kommunikationsdiagramm_SE drawio" src="https://github.com/user-attachments/assets/ff422854-ac49-4c0f-be43-9a299617c44c" />
 
-µC   -> Gebläsemotor: setMotor()
 
 
