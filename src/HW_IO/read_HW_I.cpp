@@ -2,6 +2,7 @@
 
 //HW Funktionen sind nur fiktiv, da keine HW vorhanden
 class Button {
+int pin;
 public:
   Button(int pin) : pin(pin) {}
 
