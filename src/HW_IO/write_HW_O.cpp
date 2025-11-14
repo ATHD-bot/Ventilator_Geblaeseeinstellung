@@ -1,4 +1,4 @@
-#include "write_HW_O.cpp"
+#include "write_HW_O.h"
 
 class Motor {
 int pin;
