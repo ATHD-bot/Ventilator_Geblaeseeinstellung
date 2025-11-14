@@ -2,13 +2,14 @@
 
 class Motor {
 int pin;
+bool Zustand = false;
 public:
 Motor(int pin) : pin(pin) {}
 
 void writeMotor(int val)
 {
   //Fiktive Funktion zum Wert an Motorsteuerung übermitteln
+  Zustand = val;
 }
-
 
 }
