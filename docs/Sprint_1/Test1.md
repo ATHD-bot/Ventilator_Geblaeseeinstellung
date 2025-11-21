@@ -29,7 +29,7 @@ Unit Test (UTx) für alle Buttons und Gebläßemotor
 
 | Function  | Integrations Test | Status |
 | ------------- | ------------- | ------------- |
-|  S1 -> Geb_Motor | UT1  | PASS |
-|   S2 -> Geb_Motor | UT2  | PASS |
-|    S3  -> Geb_Motor |   UT3 | PASS |
-|   AUS   -> Geb_Motor |  UT4 | PASS |
+|  S1 -> Geb_Motor | IT1  | PASS |
+|   S2 -> Geb_Motor | IT2  | PASS |
+|    S3  -> Geb_Motor |   IT3 | PASS |
+|   AUS   -> Geb_Motor |  IT4 | PASS |
