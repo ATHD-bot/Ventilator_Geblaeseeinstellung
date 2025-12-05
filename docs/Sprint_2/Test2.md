@@ -1,7 +1,7 @@
 ## Test
 ### Ziel des Tests in Sprint 2
 
-Standard Funktionalität der Buttons (STUFE[1-3], AUS) und der Ansteuerung des Gebläsemotors soll getestet werden.
+Standard Funktionalität der Buttons (OSZILLIEREN, STURZERKENNUNG) und der Ansteuerung der Motoren (Gebläße Motor und Oszillieren), sowie Ausgabe auf Display soll getestet werden.
 Tests stellen sicher dass:
 - Die Logikabfolge korret ist und zeitnah ausgeführt wird
 - Das System innerhalb der Systemgrenzen stabil läuft
