@@ -13,3 +13,16 @@ void writeMotor(int val)
 }
 
 }
+
+
+class Display {
+int pin;
+bool[32] Text;
+public:
+Display(int pin) : pin(pin) {}
+
+void write Display(bool[32] Text)
+{
+  //Fiktiver Write auf ein Display z.B. 2x16
+}
+}
