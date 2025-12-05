@@ -2,8 +2,6 @@
 
 > **Projekt**: Steuerung von Ventilator mit Gebläsemotor  
 > **Sprint**: 2  
-> **Datum**: 2025-04-05  
-> **Verfasser**: [Dein Name]  
 
 ---
 
