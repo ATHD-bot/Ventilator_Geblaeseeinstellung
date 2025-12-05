@@ -1,8 +1,5 @@
 # Baseline Dokumentation – Sprint 2
 
-> **Projekt**: Steuerung von Ventilator mit Gebläsemotor  
-> **Sprint**: 2  
-
 ---
 
 ##  Kurzbeschreibung
