@@ -106,5 +106,4 @@ Die Architektur bleibt modular und skalierbar, basierend auf einem fiktiven Mikr
 
 ---
 
- 
- Verknüpfung: [Traceability Matrix](docs/Traceability_Matrix.md) | [Sprint 2 Planung](docs/Sprint_2/Sprint2.md)
+
