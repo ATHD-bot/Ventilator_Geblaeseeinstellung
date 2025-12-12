@@ -6,7 +6,7 @@
 | AUS Schalter  | F-Req. 4, F-Req. 7 , F-Req. 8 |Button  | asynchron: readAUS() | UT4, IT4 | Sprint 1 |
 | OSZILLIEREN Schalter  | F-Req. 5, F-Req. 6, F-Req. 7 , F-Req. 8|Button  | asynchron: readOsz() | UTOSZ, ITOSZ1 | Sprint 2 |
 | Sturzerkennung Taster  | Content Cell, F-Req. 8, F-Req. 12, F-Req. 13, F-Req. 14  | Button  | asynchron: readSTZ() | UTSTURZ, ITSTURZ | Sprint 2 |
-| µC Abstraktion | F-Req. 8  |HW Access  | asynchron: µC_main() | TBD | TBD |
+| µC Abstraktion | F-Req. 8  |HW Access  | asynchron: µC_main() | ITµC | Sprint 3 |
 | Sicherheitsabschaltung  | F-Req. 8, F-Req. 14  |HW Access  | asynchron: SAFETY_main() | UTSTURZ, ITSTURZ | Sprint 2 |
 | Display  | F-Req. 11  |GUI  | asynchron: setDisplay() | UTDISPLAY, ITDISPLAY | Sprint 2 |
 | Gebläsemotor  | F-Req. 8, F-Req. 9  |Actor  | asynchron: setMotor() | UT5, IT5 | Sprint 1 |
