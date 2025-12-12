@@ -1,4 +1,4 @@
-## Test
+## Test 1
 ### Ziel des Tests in Sprint 1
 
 Standard Funktionalität der Buttons (STUFE[1-3], AUS) und der Ansteuerung des Gebläsemotors soll getestet werden.
