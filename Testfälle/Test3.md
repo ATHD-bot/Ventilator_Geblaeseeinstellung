@@ -38,3 +38,4 @@ Dabei sind folgende Requirements im Scope:
 |  OSZILLIEREN -> Motor_OSZILLIEREN | ITOSZ1  | PASS |
 |   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ  | PASS |
 |    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY | PASS |
+| Sx -> µC Abstraktion -> Geb_Motor, OSZILLIEREN, Display| ITµC | PASS |
