@@ -1,21 +1,11 @@
 #include "read_HW_I.h"
 
-//HW Funktionen sind nur fiktiv, da keine HW vorhanden
-class Button {
-int pin;
-bool Zustand = false;
-public:
-  Button(int pin) : pin(pin) {}
+Button::Button(int pin) : pin(pin), Zustand(false) {}
 
-  bool readS(void)
-{
- //fiktive Funktion zum einlesen des aktuellen Zustands
-  //Zustand = xy;
+void Button::setZustand(bool state) {
+    Zustand = state;
 }
 
-bool getZustand()
-{
-  return Zustand;
-}
-
+bool Button::getZustand() const {
+    return Zustand;
 }
