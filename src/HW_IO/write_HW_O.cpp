@@ -1,28 +1,18 @@
 #include "write_HW_O.h"
 
-class Motor {
-int pin;
-bool Zustand = false;
-public:
-Motor(int pin) : pin(pin) {}
 
-void writeMotor(int val)
-{
-  //Fiktive Funktion zum Wert an Motorsteuerung übermitteln
-  Zustand = val;
+Motor::Motor(int pin) : pin(pin), Zustand(false), speed(0) {}
+void Motor::writeMotor(int val) {
+    speed = val;
+    Zustand = (val != 0);
+}
+bool Motor::getZustand() const {
+    return Zustand;
+}
+int Motor::getSpeed() const {
+    return speed;
 }
 
-}
 
-
-class Display {
-int pin;
-bool[32] Text;
-public:
-Display(int pin) : pin(pin) {}
-
-void write Display(bool[32] Text)
-{
-  //Fiktiver Write auf ein Display z.B. 2x16
-}
-}
+Display::Display(int pin) : pin(pin) {} 
+void Display::writeDisplay(bool text[32]) {}
