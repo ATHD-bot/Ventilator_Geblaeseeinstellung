@@ -14,7 +14,7 @@ int main() {
     Motor Geb_Motor(5);
     Motor OSZILIEREN_Motor(7);
 
-    std::cout << "=== VENTILATOR-STEUERUNG (SPRINT 2) ===\n";
+    std::cout << "=== VENTILATOR-STEUERUNG ===\n";
     std::cout << "Eingabe: 1/2/3 = Geschwindigkeit | o = Oszillieren (toggle) | a = Hauptmotor (toggle) | t = STURZ (toggle) | q = Beenden\n\n";
 
     while (true) {
@@ -35,9 +35,9 @@ int main() {
         case '1': S1.setZustand(true); break;
         case '2': S2.setZustand(true); break;
         case '3': S3.setZustand(true); break;
-        case 'o': OSZILLIEREN.setZustand(!OSZILLIEREN.getZustand()); break;
-        case 'a': AUS.setZustand(!AUS.getZustand()); break;
-        case 't': STURZ.setZustand(!STURZ.getZustand()); break;
+        case 'o': OSZILLIEREN.setZustand(!OSZILLIEREN.getZustand()); break; 
+        case 'a': AUS.setZustand(!AUS.getZustand()); break; 
+        case 't': STURZ.setZustand(!STURZ.getZustand()); break; 
         case 'q': return 0;
         default:
             std::cout << "Ungültige Eingabe! (1/2/3/o/a/t/q)\n";
