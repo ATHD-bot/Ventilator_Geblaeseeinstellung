@@ -1,7 +1,11 @@
+#pragma once
 
-//HW Funktionen sind nur fiktiv, da keine HW vorhanden
 class Button {
 public:
-  bool readS();
-  bool getZustand();
-}
+    Button(int pin);
+    void setZustand(bool state); 
+    bool getZustand() const;
+private:
+    int pin;
+    bool Zustand;
+};
