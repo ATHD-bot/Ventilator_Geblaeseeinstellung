@@ -13,6 +13,7 @@ int Motor::getSpeed() const {
     return speed;
 }
 
-
+/* //Ausgabe über main() an Konsole
 Display::Display(int pin) : pin(pin) {} 
 void Display::writeDisplay(bool text[32]) {}
+*/
