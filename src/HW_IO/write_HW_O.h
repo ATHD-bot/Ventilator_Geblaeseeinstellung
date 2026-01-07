@@ -12,6 +12,7 @@ private:
     int speed;
 };
 
+/* //Ausgabe über main() an Konsole
 class Display {
 public:
     Display(int pin);
@@ -19,3 +20,4 @@ public:
 private:
     int pin;
 };
+*/
