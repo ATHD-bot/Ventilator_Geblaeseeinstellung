@@ -40,7 +40,7 @@ int main() {
         case 't': STURZ.setZustand(!STURZ.getZustand()); break; 
         case 'q': return 0;
         default:
-            std::cout << "Ungültige Eingabe! (1/2/3/o/a/t/q)\n";
+            std::cout << "Ungueltige Eingabe! (1/2/3/o/a/t/q)\n";
             continue;
         }
 
