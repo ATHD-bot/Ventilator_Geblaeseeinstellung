@@ -11,7 +11,8 @@
 | Gebläsemotor  | F-Req. 8, F-Req. 9  |Motor  | asynchron: setMotor() (writeMotor(), getZustand()) | UT5(S1), UT5(S2), UT5(S3), IT5(S1), IT5(S2), IT5(S3) | Sprint 1 |
 | Oszillieren (Motor)  | F-Req. 8, F-Req. 10  |Motor  | asynchron: setOSZ() (writeMotor(), getZustand()) | UTOSZ(S2), UTOSZ(S3), ITOSZ1(S2), ITOSZ1(S3) | Sprint 2 |
 
-Legende: (Sx) hinter den Testfällen, wobei x = {1, 2, 3}, weißt auf den Sprint x hin in dem dieser Testfall getestet wurde
+Legende: (Sx) hinter den Testfällen, wobei x = {1, 2, 3}, weißt auf den Sprint x hin in dem dieser Testfall getestet wurde.
+
 Bei Schnittstelle (text) text in Klammern = Definition im Code
 
 
