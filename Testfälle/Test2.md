@@ -10,6 +10,7 @@ Folgende Requirments sind dabei im Scope:
 - F-Req.:   5, 6, 8, 9, 10, 11, 12, 13, 14
 - NF-Req.:  1, 2, 3, 4, 5
 
+## Neue Testfälle
 ### Testfall auf Modulebene
 
 
@@ -30,3 +31,30 @@ Unit Test (UTx) für OSZILLIEREN, DISPLAY und STURZERKENNUNG
 |  OSZILLIEREN -> Motor_OSZILLIEREN | ITOSZ1  | PASS |
 |   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ  | PASS |
 |    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY | PASS |
+
+
+## Wiederholte Testfälle aus Sprint 1
+Diese Testfälle wurden im Sprint 1 abgedeckt und jetzt auf dem Software Stand von Sprint 2 wiederholt.
+(ITx/UTx(S2)) = S2 = durgeführt in Sprint 2
+
+### Testfall auf Modulebene
+Unit Test (UTx) für alle Buttons und Gebläßemotor
+
+| Function  | Unit Test | Status |
+| ------------- | ------------- |  ------------- |
+|  S1 | UT1(S2)  | PASS  |
+|   S2  | UT2(S2)  | PASS |
+|    S3  |   UT3(S2) | PASS |
+|   AUS   |  UT4(S2) | PASS |
+|     Geb_Motor |    UT5(S2)  | PASS |
+
+### Testfall auf Integrationsebene
+
+Überprüfung der Tasterverhalten und deren Auswirkung auf den Geb_Motor
+
+| Function  | Integrations Test | Status |
+| ------------- | ------------- | ------------- |
+|  S1 -> Geb_Motor | IT1(S2)  | PASS |
+|   S2 -> Geb_Motor | IT2(S2)  | PASS |
+|    S3  -> Geb_Motor |   IT3(S2) | PASS |
+|   AUS   -> Geb_Motor |  IT4(S2) | PASS |
