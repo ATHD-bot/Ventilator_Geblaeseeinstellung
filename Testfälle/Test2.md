@@ -12,15 +12,16 @@ Folgende Requirments sind dabei im Scope:
 
 ## Neue Testfälle
 ### Testfall auf Modulebene
+(S2) = Sprint 2
 
 
 Unit Test (UTx) für OSZILLIEREN, DISPLAY und STURZERKENNUNG
 
 | Function  | Unit Test | Status |
 | ------------- | ------------- |  ------------- |
-|  OSZILLIEREN | UTOSZ  | PASS  |
-|   STURZERKENNUNG  | UTSTURZ  | PASS |
-|    DISPLAY  |   UTDISPLAY | PASS |
+|  OSZILLIEREN | UTOSZ(S2)  | PASS  |
+|   STURZERKENNUNG  | UTSTURZ(S2)  | PASS |
+|    DISPLAY  |   UTDISPLAY(S2) | PASS |
 
 ### Testfall auf Integrationsebene
 
@@ -28,9 +29,9 @@ Unit Test (UTx) für OSZILLIEREN, DISPLAY und STURZERKENNUNG
 
 | Function  | Integrations Test | Status |
 | ------------- | ------------- | ------------- |
-|  OSZILLIEREN -> Motor_OSZILLIEREN | ITOSZ1  | PASS |
-|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ  | PASS |
-|    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY | PASS |
+|  OSZILLIEREN -> Motor_OSZILLIEREN | ITOSZ1(S2)  | PASS |
+|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ(S2)  | PASS |
+|    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY(S2) | PASS |
 
 
 ## Wiederholte Testfälle aus Sprint 1
