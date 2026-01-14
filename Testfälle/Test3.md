@@ -45,11 +45,15 @@ Diese Testfälle wurden im Sprint 2 (1) abgedeckt und jetzt auf dem Software Sta
 |    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY(S3) | PASS |
 | Sx -> µC Abstraktion -> Geb_Motor, OSZILLIEREN, Display| ITµC(S3) | PASS |
 
-====================================================================================
-====================================================================================
-====================================================================================
+
+
+
+
+
+
+
 # Sprint History:
-====================================================================================
+
 
 ## Testfälle aus Sprint 1
 Ergebnisse aus Sprint 1 zur Dokumentation / Information:
