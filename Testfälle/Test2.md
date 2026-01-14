@@ -63,17 +63,17 @@ Unit Test (UTx) für alle Buttons und Gebläßemotor
 Ergebnisse aus Sprint 1 zur Dokumentation / Information:
 
 ### Testfall auf Modulebene
-
+(S1) = Sprint 1
 
 Unit Test (UTx) für alle Buttons und Gebläßemotor
 
 | Function  | Unit Test | Status |
 | ------------- | ------------- |  ------------- |
-|  S1 | UT1  | PASS  |
-|   S2  | UT2  | PASS |
-|    S3  |   UT3 | PASS |
-|   AUS   |  UT4 | PASS |
-|     Geb_Motor |    UT5  | PASS |
+|  S1 | UT1(S1)  | PASS  |
+|   S2  | UT2(S1)  | PASS |
+|    S3  |   UT3(S1) | PASS |
+|   AUS   |  UT4(S1) | PASS |
+|     Geb_Motor |    UT5(S1)  | PASS |
 
 ### Testfall auf Integrationsebene
 
@@ -81,7 +81,8 @@ Unit Test (UTx) für alle Buttons und Gebläßemotor
 
 | Function  | Integrations Test | Status |
 | ------------- | ------------- | ------------- |
-|  S1 -> Geb_Motor | IT1  | PASS |
-|   S2 -> Geb_Motor | IT2  | PASS |
-|    S3  -> Geb_Motor |   IT3 | PASS |
-|   AUS   -> Geb_Motor |  IT4 | PASS |
+|  S1 -> Geb_Motor | IT1(S1)  | PASS |
+|   S2 -> Geb_Motor | IT2(S1)  | PASS |
+|    S3  -> Geb_Motor |   IT3(S1) | PASS |
+|   AUS   -> Geb_Motor |  IT4(S1) | PASS |
+
