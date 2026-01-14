@@ -6,7 +6,7 @@
 | AUS Schalter  | F-Req. 4, F-Req. 7 , F-Req. 8 |Button  | asynchron: readAUS() | UT4(S1), UT4(S2), UT4(S3), IT4(S1), IT4(S2), IT4(S3) | Sprint 1 |
 | OSZILLIEREN Schalter  | F-Req. 5, F-Req. 6, F-Req. 7 , F-Req. 8|Button  | asynchron: readOsz() | UTOSZ(S2), UTOSZ(S3), ITOSZ1(S2), ITOSZ1(S3) | Sprint 2 |
 | Sturzerkennung Taster  | Content Cell, F-Req. 8, F-Req. 12, F-Req. 13, F-Req. 14  | Button  | asynchron: readSTZ() | UTSTURZ(S2), UTSTURZ(S3), ITSTURZ(S2), ITSTURZ(S3) | Sprint 2 |
-| Sicherheitsabschaltung  | F-Req. 8, F-Req. 14  | -  | asynchron: SAFETY_main() | UTSTURZ(S2), UTSTURZ(S3), ITSTURZ(S2), ITSTURZ(S3) | Sprint 2 |
+| Sicherheitsabschaltung  | F-Req. 8, F-Req. 14  | -  | asynchron: - | UTSTURZ(S2), UTSTURZ(S3), ITSTURZ(S2), ITSTURZ(S3) | Sprint 2 |
 | Display  | F-Req. 11  |DEBUG FENSTER  | asynchron: setDisplay() | UTDISPLAY(S2), UTDISPLAY(S3), ITDISPLAY(S2), ITDISPLAY(S3) | Sprint 2 |
 | Gebläsemotor  | F-Req. 8, F-Req. 9  |Motor  | asynchron: setMotor() | UT5(S1), UT5(S2), UT5(S3), IT5(S1), IT5(S2), IT5(S3) | Sprint 1 |
 | Oszillieren (Motor)  | F-Req. 8, F-Req. 10  |Motor  | asynchron: setOSZ() | UTOSZ(S2), UTOSZ(S3), ITOSZ1(S2), ITOSZ1(S3) | Sprint 2 |
