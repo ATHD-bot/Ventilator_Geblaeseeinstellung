@@ -30,7 +30,7 @@ Unit Test (UTx) für OSZILLIEREN, DISPLAY und STURZERKENNUNG
 | Function  | Integrations Test | Status |
 | ------------- | ------------- | ------------- |
 |  OSZILLIEREN -> Motor_OSZILLIEREN | ITOSZ1(S2)  | PASS |
-|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ(S2)  | PASS |
+|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ(S2)  | PASS with Restriction (Sturzerkennung Toggelt -> geht von AUS auf letzten Zustand) |
 |    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY(S2) | PASS |
 
 
