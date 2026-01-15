@@ -41,7 +41,7 @@ Diese Testfälle wurden im Sprint 2 (1) abgedeckt und jetzt auf dem Software Sta
 |    S3  -> Geb_Motor |   IT3(S3) | PASS |
 |   AUS   -> Geb_Motor |  IT4(S3) | PASS |
 |  OSZILLIEREN -> Motor_OSZILLIEREN | ITOSZ1(S3)  | PASS |
-|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ(S3)  | PASS |
+|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ(S3)  | PASS with Restriction (Sturzerkennung Toggelt -> geht von AUS auf letzten Zustand) |
 |    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY(S3) | PASS |
 | Sx -> µC Abstraktion -> Geb_Motor, OSZILLIEREN, Display| ITµC(S3) | PASS |
 
@@ -102,7 +102,7 @@ Unit Test (UTx) für OSZILLIEREN, DISPLAY und STURZERKENNUNG
 | Function  | Integrations Test | Status |
 | ------------- | ------------- | ------------- |
 |  OSZILLIEREN -> Motor_OSZILLIEREN | ITOSZ1(S2)  | PASS |
-|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ(S2)  | PASS |
+|   STURZERKENNUNG -> Geb_Motor, OSZILLIEREN | ITSTURZ(S2)  | PASS with Restriction (Sturzerkennung Toggelt -> geht von AUS auf letzten Zustand) |
 |    S1, S2, S3, AUS, OSZILLIEREN -> Display |   ITDISPLAY(S2) | PASS |
 
 
